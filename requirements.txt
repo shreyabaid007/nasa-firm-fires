@@ -1,0 +1,20 @@
+requests>=2.31.0
+folium>=0.15.0
+pandas>=2.1.0
+branca>=0.7.0
+plotly>=5.18.0
+python-dotenv>=1.0.0
+cdsapi>=0.7.7
+xarray>=2024.1.0
+netCDF4>=1.6.0
+numpy>=1.26.0
+
+# Layer 3: TROPOMI (Copernicus Data Space — search is free, download needs account)
+# No extra dependencies beyond requests + xarray + netCDF4 already listed above
+
+# Layer 5: Conflict events (Insecurity Insight HDX — public XLSX download)
+openpyxl>=3.1.0
+
+# Layer 6: UNOSAT (geospatial)
+geopandas>=0.14.0
+shapely>=2.0.0

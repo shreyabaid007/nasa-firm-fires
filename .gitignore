@@ -1,0 +1,22 @@
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Key and certificate material
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+
+# Common secret/config files
+secrets.*
+secret.*
+credentials.*
+*.token
+
+output/
