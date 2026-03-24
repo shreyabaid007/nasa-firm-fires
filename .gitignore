@@ -20,3 +20,8 @@ credentials.*
 *.token
 
 output/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
